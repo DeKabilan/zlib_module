@@ -1,4 +1,4 @@
-# __CryptoPriceBIN__
+# __zlibrary_module__
 
  Python module for searching books and fetching book links from Zlib
 
