@@ -4,3 +4,9 @@ requires = [
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.6.3"
