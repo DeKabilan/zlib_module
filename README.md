@@ -13,31 +13,33 @@
 
 ## __Installation__
 
- `pip install zlibrary`
+ `pip install zlibrary_module`
 
 ## __Usage__
 
  ```python
- from zlibrary import zlibrary as zlib
+ from zlibrary_module import zlib
 
- zlibrary.zlib.searchbook("The Alchemist")
- zlibrary.zlib.selectbook("The Alchemist", 1)
+ zlib.searchbook("The Alchemist")
+ zlib.selectbook("The Alchemist", 1)
 
  ```
 
  Output
 
  ```python
+"""
 1.The Alchemist 1 The Alchemist (PDF)
 2.Saint Germain: Master Alchemist
 3.The Red Lion- The Elixir of Eternal Life (An Alchemist Novel) (PDF)
 4.The Alchemist
 5.Parusavedi, Alchemist in Telugu, పరుసవేది. (PDF)
-6.Rapper's best friend : an instrumental series
-7.Herbal Alchemist's Handbook, The: A Grimoire of Philtres. Elixirs, Oils, Incense, and Formulas for Ritual Use (PDF)
-8.Alchemist Ph.C-HD LIVE Operator's Manual Manual (PDF)
+6.Rappers best friend : an instrumental series
+7.Herbal Alchemists Handbook, The: A Grimoire of Philtres. Elixirs, Oils, Incense, and Formulas for Ritual Use (PDF)
+8.Alchemist Ph.C-HD LIVE Operators Manual Manual (PDF)
 9.The Alchemist by Ben Jonson (PDF)
 10.The Neutronium Alchemist
+"""
 
 https://zlibrary.to/pdfs/the-alchemist-1-the-alchemist-pdf
  ```

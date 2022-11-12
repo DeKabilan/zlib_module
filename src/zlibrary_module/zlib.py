@@ -3,6 +3,11 @@ import requests
 
 baseurl="https://zlibrary.to/"
 
+class zlib:
+    def search(query: str):
+        return searchbook(query)
+    def select(query: str, selection):
+        return searchbook(query, selection)
 
 
 def searchbook(query:str):
